@@ -1,0 +1,95 @@
+<style>
+        {
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: inter;
+        }
+        
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20vh;
+            background-image: url('temp1.jpg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            width: 400px;
+            border: 2px solid black;
+            background-color: orange;
+            border-radius: 10px;
+            padding: 20px 10px;
+            box-shadow: 0px 0px 10px rgba(50, 49, 49, .6);
+            height: 300px;
+        }
+        
+        .hed {
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .boxcontainer {
+            display: flex;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            color: purple;
+            padding: 5px 2px;
+            font-weight: bold;
+        }
+        
+        .box1 {
+            width: 50%;
+            padding: 10px 5px;
+            /* border: 1px solid red; */
+        }
+        
+        .takval,
+        #unit {
+            width: 100%;
+            font-size: 22px;
+            border: none;
+            background-color: transparent;
+            outline: none;
+            border-bottom: 1px solid blue;
+            color: darkgreen;
+        }
+        
+        #unit {
+            font-size: 1.1rem;
+            margin-top: 4.5px;
+        }
+        
+        .valuecontainer {
+            margin: 10px 0;
+            margin-top: 20px;
+            color: darkgreen;
+        }
+        
+        .value {
+            width: 100%;
+            height: 30px;
+            margin: 8px 0;
+            font-size: 1.4rem;
+            border-bottom: 1px solid blue;
+        }
+        
+        .button {
+            width: 100%;
+            height: 40px;
+            font: 1.6rem;
+            color: black;
+            background-color: red;
+            border-radius: 10px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin: 20px 0 0 0;
+        }
+       
+    </style>
