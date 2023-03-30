@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#banner{
+    background-image: url('university.jpg');
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-area li a{
+    text-decoration: none;
+    color: red;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-area li{
+    list-style: none;
+    display: inline-block;
+}
+
+.custom-padding{
+    padding-top: 0px;
+}
+
+nav{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    background: black;
+    margin: 0 auto;
+    width: calc(100% -60px);
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    color:red;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.menu-area li a:hover{
+    background: tomato;
+    color: blue;
+}
+
+.banner-text{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: purple;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 150px;
+}
+
+.banner-text h6{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.banner-text h3{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: darkblue;
+    border: 1px solid red;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 1px solid orange;
+    background: orange;
+    transition: 1s;
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    line-weight: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: green;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transistion: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.facility{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.facility-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.facility-col img{
+    width: 100%;
+    display: block;
+}
+
+.c1{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.5s;
+}
+
+.c1:hover{
+    background: rgba(226,0,0,0.7);
+}
+
+.c2{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.c2-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: cyan;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.c2-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.c2-col p{
+    padding: 0;
+}
+
+.c2-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.con{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://www.shutterstock.com/image-photo/radcliffe-quadrangle-the-quad-harvard-260nw-396023383.jpg');
+    background position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.con h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid red;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    border: 1px solid orange;
+    background: orange;
+    transition: 1s;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: orange;
+}
+
+.footer p{
+    color: purple;
+}
+
+.footer h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
